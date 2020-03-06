@@ -26,7 +26,7 @@ def index_finder(xarray, yarray):
 		
 if __name__ == "__main__":
 	import os
-	file_directory = #filepath
+	file_directory = "/Users/nikhilprasad/Desktop/Rosalind/binary_search/"
 	files = os.listdir(file_directory)
 	file_name = file_directory + [f for f in files if f.startswith('rosalind')][0]
 	xarray, yarray = parse_for_binary_search(file_name)
