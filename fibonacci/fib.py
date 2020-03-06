@@ -12,7 +12,7 @@ def fibnoacci_exp(number):
 def fibonacci_linear(number):
     a = 0 
     b = 1 
-    for i in xrange(0,number):
+    for i in range(0,number):
         #print("i:" , i)
         #print("a:" , a)
         #print("b:" , b)
