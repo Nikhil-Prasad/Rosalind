@@ -10,10 +10,11 @@ def swap(list1,a,b): #something about this gets indexed incorrect when being cal
 #pos1, pos2, = 0,1 
 
 #print(driver)
-#rint(swap(driver,pos1,pos2))
+#rint(swap(driver,pos1,pos2)) better to use swap but temp is working fine for now. 
 
 def bubble_sort(list_1):
     for pass_number in range(len(list_1)-1,0,-1):
+        print(list_1)
         for i in range(pass_number):
             if list_1[i]>list_1[i+1]:
                 temp = list_1[i]

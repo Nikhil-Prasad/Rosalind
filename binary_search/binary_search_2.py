@@ -32,5 +32,5 @@ if __name__ == "__main__":
 	xarray, yarray = parse_for_binary_search(file_name)
 	indices = index_finder(xarray, yarray)
 	for i in indices:
-		print i, 
+		print(i,) 
 	print 
