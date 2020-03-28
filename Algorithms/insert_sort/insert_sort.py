@@ -12,14 +12,4 @@ def insertSort(list_unsorted):
 
         #print(count)
     return(count)
-        
-
-        
-
-lines = []
-file = open("rosalind_ins.txt")
-line2 = file.readlines(2)
-print(line2)
-        #lines.append(line2) #storing everything in memory!
-        #print(lines)
 
