@@ -1,5 +1,5 @@
 f = open('rosalind_gc.txt', 'r')
-string_file = f.read() #read in as a string so you can use split. 
+string_file =  f.read()#read in as a string so you can use split. 
 
 genes = string_file.split(">")[1:]
 gc = []
